@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER*/
 
 /*debug*/
 
@@ -14,7 +15,7 @@
 
 .debug .header-bottom {
     /*height: 400px;*/
-    background-color: blue;
+    background-color: darkblue;
 }
 
 /*
@@ -22,16 +23,15 @@
     height: 60px;
 }*/
 
-.flex-cont {
+.flex-cont_hd {
     background-color: yellowgreen;
-}
-
-.flex-item_hd {
-    border: 1px dotted black;
 }
 
 .hb_box {
     background-color: purple;
+}
+
+.border {
     border: 1px dotted black;
 }
 
@@ -39,14 +39,14 @@
 /*css*/
 
 .header-top, .header-bottom {
-    padding: 20px;
+    padding: 30px;
 }
 .container {
     width: 80%;
     margin: auto;
 }
 
-.flex-cont {
+.flex-cont_hd {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,4 +83,53 @@
     width: 65%;
     height: 400px;
     margin: auto;
+}
+
+/* MAIN */
+
+/*debug*/
+
+.flex-cont_main {
+    background-color: green;
+}
+
+.big_blue_item {
+    background-color: blue;
+    
+}
+
+.little_pink_item {
+    background-color: pink;
+}
+
+.grey_section {
+    background-color: grey;
+}
+
+.section_box {
+    background-color: green;
+}
+
+
+/*css*/
+
+section {
+    padding: 30px;
+}
+
+.flex-cont_main {
+    display: flex;
+    height: 500px;
+}
+
+.big_blue_item {
+    width: 60%;
+}
+
+.little_pink_item {
+    width: 40%;
+}
+
+.section_box {
+    height: 700px;
 }
