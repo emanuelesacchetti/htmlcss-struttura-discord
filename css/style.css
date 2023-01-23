@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* HEADER*/
+
 
 /*debug*/
 
@@ -23,20 +23,60 @@
     height: 60px;
 }*/
 
-.flex-cont_hd {
+.debug .flex-cont_hd {
     background-color: yellowgreen;
 }
 
-.hb_box {
+.debug .hb_box {
     background-color: purple;
 }
 
-.border {
+.debug .border {
     border: 1px dotted black;
 }
 
+.debug .flex-cont_main {
+    background-color: green;
+}
 
-/*css*/
+.debug .big_blue_item {
+    background-color: blue;
+    
+}
+
+.debug .little_pink_item {
+    background-color: pink;
+}
+
+
+.debug .section_box {
+    background-color: green;
+}
+
+.debug .flex-cont_f_top {
+    height: 500px;
+    background-color: brown;
+}
+
+.debug .little_footer_item {
+    background-color: aquamarine;
+    border: 1px dotted white;
+}
+
+.debug .big_footer_item {
+    background-color: crimson;
+}
+
+.debug .flex-cont_f_bottom {
+    background-color: greenyellow;
+}
+
+.debug .footer_button {
+    background-color: rgb(214, 135, 148);
+}
+
+/* HEADER css*/
+
 
 .header-top, .header-bottom {
     padding: 30px;
@@ -85,37 +125,17 @@
     margin: auto;
 }
 
-/* MAIN */
+/* MAIN css*/
 
-/*debug*/
 
-.flex-cont_main {
-    background-color: green;
-}
-
-.big_blue_item {
-    background-color: blue;
-    
-}
-
-.little_pink_item {
-    background-color: pink;
+section {
+    padding: 30px;
 }
 
 .grey_section {
     background-color: grey;
 }
 
-.section_box {
-    background-color: green;
-}
-
-
-/*css*/
-
-section {
-    padding: 30px;
-}
 
 .flex-cont_main {
     display: flex;
@@ -132,4 +152,39 @@ section {
 
 .section_box {
     height: 700px;
+}
+
+
+/*FOOTER css*/
+
+footer {
+    background-color: rgb(27, 26, 26);
+    border-bottom: solid 2px white;
+}
+.footer_top {
+    padding: 30px;
+}
+
+.flex-cont_f_top {
+    display: flex;
+}
+
+.little_footer_item {
+    width: 17.5%;
+}
+
+.big_footer_item {
+    width: 30%;
+}
+
+.flex-cont_f_bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+    height: 100px;
+    align-items: center;
+}
+
+.footer_button {
+    padding: 10px;
 }
