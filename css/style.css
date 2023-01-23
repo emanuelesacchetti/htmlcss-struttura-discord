@@ -183,6 +183,8 @@ footer {
     background-color: greenyellow;
     height: 100px;
     align-items: center;
+    width: 77%;
+    margin: auto;
 }
 
 .footer_button {
