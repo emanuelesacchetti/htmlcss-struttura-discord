@@ -13,7 +13,7 @@
 }
 
 .debug .header-bottom {
-    height: 400px;
+    /*height: 400px;*/
     background-color: blue;
 }
 
@@ -26,14 +26,19 @@
     background-color: yellowgreen;
 }
 
-.flex-item-hd {
-    border: 1px solid black;
+.flex-item_hd {
+    border: 1px dotted black;
+}
+
+.hb_box {
+    background-color: purple;
+    border: 1px dotted black;
 }
 
 
 /*css*/
 
-.header-top {
+.header-top, .header-bottom {
     padding: 20px;
 }
 .container {
@@ -52,24 +57,30 @@
 .logo {
     width: 20%;
     text-align: left;
+    padding: 10px;
 }
 
 .login {
     width: 20%;
     text-align: right;
+    padding: 10px;
 }
+
 
 .menu {
     width: 60%;
     text-align: center;
     list-style-type: none;
     line-height: 100%;
+    padding: 11px;
 }
 
 .menu li {
     display: inline;
 }
 
-.flex-item-hd {
-    padding: 10px;
+.hb_box {
+    width: 65%;
+    height: 400px;
+    margin: auto;
 }
